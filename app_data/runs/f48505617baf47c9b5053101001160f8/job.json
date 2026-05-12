@@ -1,0 +1,50 @@
+{
+  "id": "f48505617baf47c9b5053101001160f8",
+  "module": "red_light",
+  "video_id": "sample__traffic_video_modified.mp4",
+  "video_name": "traffic_video_modified.mp4",
+  "status": "succeeded",
+  "progress": {
+    "processed_frames": 715,
+    "total_frames": 715,
+    "percent": 100.0,
+    "violations_count": 0
+  },
+  "created_at": "2026-04-30T10:27:03.970607+00:00",
+  "started_at": "2026-04-30T10:27:03.971738+00:00",
+  "finished_at": "2026-04-30T10:27:38.965247+00:00",
+  "error": null,
+  "result": {
+    "module": "red_light",
+    "total_violations": 0,
+    "processed_frames": 715,
+    "total_frames": 715,
+    "fps": 26.333,
+    "width": 1920,
+    "height": 1012,
+    "elapsed_seconds": 34.70939826965332,
+    "config": {
+      "line": [
+        1909,
+        970,
+        209,
+        930
+      ],
+      "rois": [
+        [
+          1736,
+          20,
+          1888,
+          313
+        ]
+      ]
+    },
+    "options": {
+      "conf": 0.35,
+      "iou": 0.45,
+      "traffic_light_refresh": 5
+    },
+    "violations": [],
+    "video_url": "/api/jobs/f48505617baf47c9b5053101001160f8/video"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "60be0d2f0093453ea2e2ebd0eded1587",
+  "module": "helmet",
+  "video_id": "helmet__helmet_2.mp4",
+  "video_name": "helmet_2.mp4",
+  "status": "failed",
+  "progress": {
+    "processed_frames": 0,
+    "total_frames": 500,
+    "percent": 0.0,
+    "violations_count": 0
+  },
+  "created_at": "2026-04-30T17:07:32.848575+00:00",
+  "started_at": "2026-04-30T17:07:32.849575+00:00",
+  "finished_at": "2026-04-30T17:07:32.851576+00:00",
+  "error": "Model weights not found: C:\\Users\\Deep\\Desktop\\DAU_Projects\\traffic\\StreetSentry\\yolo12l.pt",
+  "result": null
+}

@@ -1,0 +1,191 @@
+{
+  "id": "6d0adf47d3a740c0a3f523c54e2f4acf",
+  "module": "helmet",
+  "video_id": "helmet__helmet_1.mp4",
+  "video_name": "helmet_1.mp4",
+  "status": "succeeded",
+  "progress": {
+    "processed_frames": 1281,
+    "total_frames": 1281,
+    "percent": 100.0,
+    "violations_count": 5
+  },
+  "created_at": "2026-05-12T17:19:01.779767+00:00",
+  "started_at": "2026-05-12T17:19:01.780567+00:00",
+  "finished_at": "2026-05-12T17:21:52.321986+00:00",
+  "error": null,
+  "result": {
+    "module": "helmet",
+    "total_violations": 5,
+    "processed_frames": 1281,
+    "total_frames": 1281,
+    "fps": 31.57894736842105,
+    "width": 3840,
+    "height": 2160,
+    "elapsed_seconds": 169.98972511291504,
+    "config": {},
+    "options": {
+      "vehicle_conf": 0.35,
+      "helmet_conf": 0.35,
+      "iou": 0.45
+    },
+    "violations": [
+      {
+        "id": "helmet-25-84",
+        "module": "helmet",
+        "label": "Helmet violation",
+        "frame": 84,
+        "time_seconds": 2.66,
+        "track_id": 25,
+        "class_name": "motorcycle",
+        "box": [
+          85,
+          1189,
+          329,
+          1501
+        ],
+        "details": {
+          "helmet_class": "without_helmet",
+          "helmet_box": [
+            24,
+            1084,
+            115,
+            1179
+          ],
+          "association_zone": [
+            0,
+            924,
+            438,
+            1469
+          ],
+          "match_score": 2.33
+        }
+      },
+      {
+        "id": "helmet-47-551",
+        "module": "helmet",
+        "label": "Helmet violation",
+        "frame": 551,
+        "time_seconds": 17.448,
+        "track_id": 47,
+        "class_name": "motorcycle",
+        "box": [
+          1561,
+          922,
+          1698,
+          1146
+        ],
+        "details": {
+          "helmet_class": "without_helmet",
+          "helmet_box": [
+            1580,
+            828,
+            1636,
+            904
+          ],
+          "association_zone": [
+            1500,
+            732,
+            1759,
+            1123
+          ],
+          "match_score": 3.0
+        }
+      },
+      {
+        "id": "helmet-59-554",
+        "module": "helmet",
+        "label": "Helmet violation",
+        "frame": 554,
+        "time_seconds": 17.543,
+        "track_id": 59,
+        "class_name": "motorcycle",
+        "box": [
+          3169,
+          1555,
+          3677,
+          1927
+        ],
+        "details": {
+          "helmet_class": "without_helmet",
+          "helmet_box": [
+            3465,
+            1505,
+            3573,
+            1625
+          ],
+          "association_zone": [
+            2941,
+            1239,
+            3839,
+            1889
+          ],
+          "match_score": 3.0
+        }
+      },
+      {
+        "id": "helmet-57-555",
+        "module": "helmet",
+        "label": "Helmet violation",
+        "frame": 555,
+        "time_seconds": 17.575,
+        "track_id": 57,
+        "class_name": "motorcycle",
+        "box": [
+          3147,
+          1534,
+          3612,
+          1929
+        ],
+        "details": {
+          "helmet_class": "without_helmet",
+          "helmet_box": [
+            3431,
+            1492,
+            3538,
+            1605
+          ],
+          "association_zone": [
+            2938,
+            1199,
+            3821,
+            1889
+          ],
+          "match_score": 3.0
+        }
+      },
+      {
+        "id": "helmet-67-707",
+        "module": "helmet",
+        "label": "Helmet violation",
+        "frame": 707,
+        "time_seconds": 22.388,
+        "track_id": 67,
+        "class_name": "motorcycle",
+        "box": [
+          3094,
+          1137,
+          3262,
+          1406
+        ],
+        "details": {
+          "helmet_class": "without_helmet",
+          "helmet_box": [
+            3176,
+            1021,
+            3242,
+            1098
+          ],
+          "association_zone": [
+            3019,
+            909,
+            3337,
+            1379
+          ],
+          "match_score": 3.0
+        }
+      }
+    ],
+    "video_url": "/api/jobs/6d0adf47d3a740c0a3f523c54e2f4acf/video"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "715b23d2741948b8b51cd32e026bc486",
+  "module": "helmet",
+  "video_id": "helmet__helmet_1.mp4",
+  "video_name": "helmet_1.mp4",
+  "status": "succeeded",
+  "progress": {
+    "processed_frames": 27,
+    "total_frames": 250,
+    "percent": 100.0,
+    "violations_count": 0
+  },
+  "created_at": "2026-05-12T17:14:55.183798+00:00",
+  "started_at": "2026-05-12T17:14:55.184794+00:00",
+  "finished_at": "2026-05-12T17:15:06.025295+00:00",
+  "error": null,
+  "result": {
+    "module": "helmet",
+    "total_violations": 0,
+    "processed_frames": 27,
+    "total_frames": 250,
+    "fps": 31.57894736842105,
+    "width": 3840,
+    "height": 2160,
+    "elapsed_seconds": 10.295594930648804,
+    "config": {},
+    "options": {
+      "vehicle_conf": 0.35,
+      "helmet_conf": 0.35,
+      "iou": 0.45
+    },
+    "violations": [],
+    "video_url": "/api/jobs/715b23d2741948b8b51cd32e026bc486/video"
+  }
+}

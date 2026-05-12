@@ -1,0 +1,18 @@
+{
+  "id": "919b3ca5bfa4476fbd0c4bab82f0ac4f",
+  "module": "speed_lane",
+  "video_id": "sample__speed_test_2.mp4",
+  "video_name": "speed_test_2.mp4",
+  "status": "failed",
+  "progress": {
+    "processed_frames": 0,
+    "total_frames": 3000,
+    "percent": 0.0,
+    "violations_count": 0
+  },
+  "created_at": "2026-04-30T17:16:24.564812+00:00",
+  "started_at": "2026-04-30T17:16:24.566175+00:00",
+  "finished_at": "2026-04-30T17:16:24.568274+00:00",
+  "error": "Speed model weights not found: C:\\Users\\Deep\\Desktop\\DAU_Projects\\traffic\\StreetSentry\\detection_track.pt",
+  "result": null
+}

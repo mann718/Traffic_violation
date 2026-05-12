@@ -1,0 +1,91 @@
+{
+  "id": "f7892817cadb4a1db3806017e7024424",
+  "module": "red_light",
+  "video_id": "sample__videoplayback.mp4",
+  "video_name": "videoplayback.mp4",
+  "status": "succeeded",
+  "progress": {
+    "processed_frames": 361,
+    "total_frames": 361,
+    "percent": 100.0,
+    "violations_count": 1
+  },
+  "created_at": "2026-05-12T17:00:34.238642+00:00",
+  "started_at": "2026-05-12T17:00:34.239372+00:00",
+  "finished_at": "2026-05-12T17:00:58.157401+00:00",
+  "error": null,
+  "result": {
+    "module": "red_light",
+    "total_violations": 1,
+    "processed_frames": 361,
+    "total_frames": 361,
+    "fps": 29.97002997002997,
+    "width": 1920,
+    "height": 1080,
+    "elapsed_seconds": 23.5343496799469,
+    "config": {
+      "line": [
+        446,
+        679,
+        1741,
+        800
+      ],
+      "rois": [
+        [
+          1444,
+          226,
+          1477,
+          282
+        ],
+        [
+          1338,
+          227,
+          1380,
+          293
+        ],
+        [
+          1554,
+          219,
+          1597,
+          290
+        ]
+      ]
+    },
+    "options": {
+      "conf": 0.35,
+      "iou": 0.45,
+      "traffic_light_refresh": 5
+    },
+    "violations": [
+      {
+        "id": "red_light-33-153",
+        "module": "red_light",
+        "label": "Red-light violation",
+        "frame": 153,
+        "time_seconds": 5.105,
+        "track_id": 33,
+        "class_name": "car",
+        "box": [
+          766,
+          630,
+          1096,
+          819
+        ],
+        "details": {
+          "traffic_light_colors": [
+            "red",
+            "red",
+            "red"
+          ],
+          "line": [
+            446,
+            679,
+            1741,
+            800
+          ]
+        }
+      }
+    ],
+    "video_url": "/api/jobs/f7892817cadb4a1db3806017e7024424/video"
+  }
+}

@@ -1,0 +1,1395 @@
+{
+  "id": "f3805c8ff1d0426fb4b1f6025ce983f1",
+  "module": "speed_lane",
+  "video_id": "sample__speed_test_2.mp4",
+  "video_name": "speed_test_2.mp4",
+  "status": "succeeded",
+  "progress": {
+    "processed_frames": 3000,
+    "total_frames": 3000,
+    "percent": 100.0,
+    "violations_count": 40
+  },
+  "created_at": "2026-04-30T17:36:49.738358+00:00",
+  "started_at": "2026-04-30T17:36:49.740357+00:00",
+  "finished_at": "2026-04-30T17:39:26.940194+00:00",
+  "error": null,
+  "result": {
+    "module": "speed_lane",
+    "total_violations": 40,
+    "processed_frames": 3000,
+    "total_frames": 3000,
+    "fps": 50.0,
+    "width": 1920,
+    "height": 1080,
+    "elapsed_seconds": 157.12039232254028,
+    "config": {
+      "line_y1": 756,
+      "line_y2": 918,
+      "lane_polygons": {
+        "Lane 1": [
+          [
+            288,
+            280
+          ],
+          [
+            576,
+            302
+          ],
+          [
+            748,
+            378
+          ],
+          [
+            1152,
+            756
+          ],
+          [
+            1344,
+            1026
+          ],
+          [
+            672,
+            1026
+          ],
+          [
+            537,
+            756
+          ]
+        ],
+        "Lane 2": [
+          [
+            806,
+            378
+          ],
+          [
+            1152,
+            302
+          ],
+          [
+            1440,
+            270
+          ],
+          [
+            1689,
+            702
+          ],
+          [
+            1843,
+            1026
+          ],
+          [
+            1344,
+            1026
+          ],
+          [
+            1190,
+            756
+          ]
+        ]
+      }
+    },
+    "options": {
+      "conf": 0.25,
+      "iou": 0.45,
+      "line1_ratio": 0.7,
+      "line2_ratio": 0.85,
+      "meters_between_lines": 8.0,
+      "speed_persist_frames": 150,
+      "speed_limit_kmh": 50.0,
+      "violation_frame_threshold": 8
+    },
+    "violations": [
+      {
+        "id": "speed_lane-11-53",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 53,
+        "time_seconds": 1.06,
+        "track_id": 11,
+        "class_name": "car",
+        "box": [
+          888,
+          777,
+          1258,
+          1072
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-2-59",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 59,
+        "time_seconds": 1.18,
+        "track_id": 2,
+        "class_name": "car",
+        "box": [
+          1380,
+          593,
+          1763,
+          909
+        ],
+        "details": {
+          "speed_kmh": 43.636,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.66
+        }
+      },
+      {
+        "id": "speed_lane-1-87",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 87,
+        "time_seconds": 1.74,
+        "track_id": 1,
+        "class_name": "car",
+        "box": [
+          826,
+          631,
+          1164,
+          909
+        ],
+        "details": {
+          "speed_kmh": 45.0,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.64
+        }
+      },
+      {
+        "id": "speed_lane-2-89",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 89,
+        "time_seconds": 1.78,
+        "track_id": 2,
+        "class_name": "car",
+        "box": [
+          1487,
+          633,
+          1920,
+          1073
+        ],
+        "details": {
+          "assigned_lane": "Lane 2",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-1-118",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 118,
+        "time_seconds": 2.36,
+        "track_id": 1,
+        "class_name": "car",
+        "box": [
+          886,
+          769,
+          1255,
+          1079
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-3-124",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 124,
+        "time_seconds": 2.48,
+        "track_id": 3,
+        "class_name": "bus",
+        "box": [
+          815,
+          633,
+          1130,
+          909
+        ],
+        "details": {
+          "speed_kmh": 46.452,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.62
+        }
+      },
+      {
+        "id": "speed_lane-3-153",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 153,
+        "time_seconds": 3.06,
+        "track_id": 3,
+        "class_name": "car",
+        "box": [
+          880,
+          773,
+          1234,
+          1074
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-4-166",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 166,
+        "time_seconds": 3.32,
+        "track_id": 4,
+        "class_name": "car",
+        "box": [
+          1383,
+          604,
+          1746,
+          914
+        ],
+        "details": {
+          "speed_kmh": 45.0,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.64
+        }
+      },
+      {
+        "id": "speed_lane-5-183",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 183,
+        "time_seconds": 3.66,
+        "track_id": 5,
+        "class_name": "car",
+        "box": [
+          736,
+          621,
+          1079,
+          913
+        ],
+        "details": {
+          "speed_kmh": 43.636,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.66
+        }
+      },
+      {
+        "id": "speed_lane-4-195",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 195,
+        "time_seconds": 3.9,
+        "track_id": 4,
+        "class_name": "car",
+        "box": [
+          1515,
+          716,
+          1920,
+          1073
+        ],
+        "details": {
+          "assigned_lane": "Lane 2",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-5-211",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 211,
+        "time_seconds": 4.22,
+        "track_id": 5,
+        "class_name": "car",
+        "box": [
+          784,
+          746,
+          1163,
+          1069
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-13-247",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 247,
+        "time_seconds": 4.94,
+        "track_id": 13,
+        "class_name": "car",
+        "box": [
+          680,
+          257,
+          841,
+          381
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-8-364",
+        "module": "speed_lane",
+        "label": "Overspeed violation",
+        "frame": 364,
+        "time_seconds": 7.28,
+        "track_id": 8,
+        "class_name": "car",
+        "box": [
+          858,
+          637,
+          1194,
+          911
+        ],
+        "details": {
+          "speed_kmh": 51.429,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.56
+        }
+      },
+      {
+        "id": "speed_lane-8-389",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 389,
+        "time_seconds": 7.78,
+        "track_id": 8,
+        "class_name": "car",
+        "box": [
+          917,
+          777,
+          1288,
+          1078
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-15-481",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 481,
+        "time_seconds": 9.62,
+        "track_id": 15,
+        "class_name": "car",
+        "box": [
+          661,
+          249,
+          816,
+          370
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-13-494",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 494,
+        "time_seconds": 9.88,
+        "track_id": 13,
+        "class_name": "car",
+        "box": [
+          1360,
+          598,
+          1747,
+          912
+        ],
+        "details": {
+          "speed_kmh": 49.655,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.58
+        }
+      },
+      {
+        "id": "speed_lane-17-683",
+        "module": "speed_lane",
+        "label": "Overspeed violation",
+        "frame": 683,
+        "time_seconds": 13.66,
+        "track_id": 17,
+        "class_name": "scooter",
+        "box": [
+          863,
+          547,
+          1239,
+          912
+        ],
+        "details": {
+          "speed_kmh": 57.6,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.5
+        }
+      },
+      {
+        "id": "speed_lane-17-707",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 707,
+        "time_seconds": 14.14,
+        "track_id": 17,
+        "class_name": "scooter",
+        "box": [
+          901,
+          530,
+          1388,
+          1078
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-15-786",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 786,
+        "time_seconds": 15.72,
+        "track_id": 15,
+        "class_name": "car",
+        "box": [
+          1481,
+          634,
+          1826,
+          909
+        ],
+        "details": {
+          "speed_kmh": 43.636,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.66
+        }
+      },
+      {
+        "id": "speed_lane-18-826",
+        "module": "speed_lane",
+        "label": "Overspeed violation",
+        "frame": 826,
+        "time_seconds": 16.52,
+        "track_id": 18,
+        "class_name": "car",
+        "box": [
+          884,
+          587,
+          1223,
+          909
+        ],
+        "details": {
+          "speed_kmh": 51.429,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.56
+        }
+      },
+      {
+        "id": "speed_lane-18-852",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 852,
+        "time_seconds": 17.04,
+        "track_id": 18,
+        "class_name": "car",
+        "box": [
+          921,
+          728,
+          1308,
+          1074
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-21-920",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 920,
+        "time_seconds": 18.4,
+        "track_id": 21,
+        "class_name": "car",
+        "box": [
+          667,
+          256,
+          820,
+          370
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-23-1092",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 1092,
+        "time_seconds": 21.84,
+        "track_id": 23,
+        "class_name": "car",
+        "box": [
+          690,
+          253,
+          849,
+          389
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-19-1163",
+        "module": "speed_lane",
+        "label": "Overspeed violation",
+        "frame": 1163,
+        "time_seconds": 23.26,
+        "track_id": 19,
+        "class_name": "car",
+        "box": [
+          964,
+          647,
+          1307,
+          912
+        ],
+        "details": {
+          "speed_kmh": 53.333,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.54
+        }
+      },
+      {
+        "id": "speed_lane-19-1188",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 1188,
+        "time_seconds": 23.76,
+        "track_id": 19,
+        "class_name": "car",
+        "box": [
+          1109,
+          785,
+          1489,
+          1080
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-21-1213",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 1213,
+        "time_seconds": 24.26,
+        "track_id": 21,
+        "class_name": "car",
+        "box": [
+          1421,
+          644,
+          1758,
+          910
+        ],
+        "details": {
+          "speed_kmh": 45.0,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.64
+        }
+      },
+      {
+        "id": "speed_lane-26-1318",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 1318,
+        "time_seconds": 26.36,
+        "track_id": 26,
+        "class_name": "car",
+        "box": [
+          662,
+          251,
+          823,
+          372
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-23-1336",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 1336,
+        "time_seconds": 26.72,
+        "track_id": 23,
+        "class_name": "car",
+        "box": [
+          1403,
+          619,
+          1737,
+          910
+        ],
+        "details": {
+          "speed_kmh": 48.0,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.6
+        }
+      },
+      {
+        "id": "speed_lane-34-1421",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 1421,
+        "time_seconds": 28.42,
+        "track_id": 34,
+        "class_name": "car",
+        "box": [
+          680,
+          248,
+          816,
+          371
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-36-1536",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 1536,
+        "time_seconds": 30.72,
+        "track_id": 36,
+        "class_name": "bus",
+        "box": [
+          644,
+          256,
+          765,
+          356
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-35-1647",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 1647,
+        "time_seconds": 32.94,
+        "track_id": 35,
+        "class_name": "car",
+        "box": [
+          824,
+          629,
+          1154,
+          918
+        ],
+        "details": {
+          "speed_kmh": 42.353,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.68
+        }
+      },
+      {
+        "id": "speed_lane-26-1677",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 1677,
+        "time_seconds": 33.54,
+        "track_id": 26,
+        "class_name": "car",
+        "box": [
+          1456,
+          628,
+          1798,
+          910
+        ],
+        "details": {
+          "speed_kmh": 36.923,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.78
+        }
+      },
+      {
+        "id": "speed_lane-35-1692",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 1692,
+        "time_seconds": 33.84,
+        "track_id": 35,
+        "class_name": "car",
+        "box": [
+          1003,
+          840,
+          1322,
+          1078
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-37-1708",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 1708,
+        "time_seconds": 34.16,
+        "track_id": 37,
+        "class_name": "car",
+        "box": [
+          766,
+          648,
+          1086,
+          912
+        ],
+        "details": {
+          "speed_kmh": 45.0,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.64
+        }
+      },
+      {
+        "id": "speed_lane-37-1736",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 1736,
+        "time_seconds": 34.72,
+        "track_id": 37,
+        "class_name": "car",
+        "box": [
+          827,
+          777,
+          1183,
+          1071
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-34-1777",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 1777,
+        "time_seconds": 35.54,
+        "track_id": 34,
+        "class_name": "car",
+        "box": [
+          1476,
+          634,
+          1795,
+          910
+        ],
+        "details": {
+          "speed_kmh": 37.895,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.76
+        }
+      },
+      {
+        "id": "speed_lane-39-1801",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 1801,
+        "time_seconds": 36.02,
+        "track_id": 39,
+        "class_name": "bus",
+        "box": [
+          650,
+          202,
+          811,
+          368
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-40-1903",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 1903,
+        "time_seconds": 38.06,
+        "track_id": 40,
+        "class_name": "car",
+        "box": [
+          736,
+          284,
+          926,
+          439
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-36-1912",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 1912,
+        "time_seconds": 38.24,
+        "track_id": 36,
+        "class_name": "car",
+        "box": [
+          1510,
+          631,
+          1835,
+          909
+        ],
+        "details": {
+          "speed_kmh": 41.143,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.7
+        }
+      },
+      {
+        "id": "speed_lane-38-1916",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 1916,
+        "time_seconds": 38.32,
+        "track_id": 38,
+        "class_name": "car",
+        "box": [
+          817,
+          647,
+          1101,
+          929
+        ],
+        "details": {
+          "speed_kmh": 38.919,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.74
+        }
+      },
+      {
+        "id": "speed_lane-38-1943",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 1943,
+        "time_seconds": 38.86,
+        "track_id": 38,
+        "class_name": "scooter",
+        "box": [
+          825,
+          774,
+          1196,
+          1079
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-41-1971",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 1971,
+        "time_seconds": 39.42,
+        "track_id": 41,
+        "class_name": "scooter",
+        "box": [
+          824,
+          648,
+          1111,
+          914
+        ],
+        "details": {
+          "speed_kmh": 45.0,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.64
+        }
+      },
+      {
+        "id": "speed_lane-41-1999",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 1999,
+        "time_seconds": 39.98,
+        "track_id": 41,
+        "class_name": "scooter",
+        "box": [
+          879,
+          788,
+          1213,
+          1072
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-46-2046",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 2046,
+        "time_seconds": 40.92,
+        "track_id": 46,
+        "class_name": "bus",
+        "box": [
+          660,
+          237,
+          801,
+          363
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-40-2120",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 2120,
+        "time_seconds": 42.4,
+        "track_id": 40,
+        "class_name": "car",
+        "box": [
+          1483,
+          632,
+          1801,
+          911
+        ],
+        "details": {
+          "speed_kmh": 38.919,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.74
+        }
+      },
+      {
+        "id": "speed_lane-49-2148",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 2148,
+        "time_seconds": 42.96,
+        "track_id": 49,
+        "class_name": "motorcycle",
+        "box": [
+          951,
+          772,
+          1156,
+          1079
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-43-2179",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 2179,
+        "time_seconds": 43.58,
+        "track_id": 43,
+        "class_name": "car",
+        "box": [
+          812,
+          636,
+          1140,
+          909
+        ],
+        "details": {
+          "speed_kmh": 46.452,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.62
+        }
+      },
+      {
+        "id": "speed_lane-45-2205",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 2205,
+        "time_seconds": 44.1,
+        "track_id": 45,
+        "class_name": "car",
+        "box": [
+          1485,
+          541,
+          1891,
+          909
+        ],
+        "details": {
+          "speed_kmh": 35.122,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.82
+        }
+      },
+      {
+        "id": "speed_lane-43-2207",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 2207,
+        "time_seconds": 44.14,
+        "track_id": 43,
+        "class_name": "car",
+        "box": [
+          862,
+          774,
+          1216,
+          1071
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-45-2241",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 2241,
+        "time_seconds": 44.82,
+        "track_id": 45,
+        "class_name": "car",
+        "box": [
+          1604,
+          584,
+          1920,
+          1062
+        ],
+        "details": {
+          "assigned_lane": "Lane 2",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-42-2297",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 2297,
+        "time_seconds": 45.94,
+        "track_id": 42,
+        "class_name": "car",
+        "box": [
+          832,
+          642,
+          1198,
+          913
+        ],
+        "details": {
+          "speed_kmh": 46.452,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.62
+        }
+      },
+      {
+        "id": "speed_lane-42-2324",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 2324,
+        "time_seconds": 46.48,
+        "track_id": 42,
+        "class_name": "car",
+        "box": [
+          860,
+          773,
+          1253,
+          1073
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-46-2418",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 2418,
+        "time_seconds": 48.36,
+        "track_id": 46,
+        "class_name": "car",
+        "box": [
+          1518,
+          605,
+          1860,
+          909
+        ],
+        "details": {
+          "speed_kmh": 40.0,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.72
+        }
+      },
+      {
+        "id": "speed_lane-54-2438",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 2438,
+        "time_seconds": 48.76,
+        "track_id": 54,
+        "class_name": "car",
+        "box": [
+          670,
+          249,
+          830,
+          371
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-51-2483",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 2483,
+        "time_seconds": 49.66,
+        "track_id": 51,
+        "class_name": "car",
+        "box": [
+          874,
+          644,
+          1211,
+          912
+        ],
+        "details": {
+          "speed_kmh": 46.452,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.62
+        }
+      },
+      {
+        "id": "speed_lane-51-2510",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 2510,
+        "time_seconds": 50.2,
+        "track_id": 51,
+        "class_name": "car",
+        "box": [
+          949,
+          777,
+          1325,
+          1075
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-53-2686",
+        "module": "speed_lane",
+        "label": "Overspeed violation",
+        "frame": 2686,
+        "time_seconds": 53.72,
+        "track_id": 53,
+        "class_name": "car",
+        "box": [
+          815,
+          634,
+          1171,
+          914
+        ],
+        "details": {
+          "speed_kmh": 53.333,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.54
+        }
+      },
+      {
+        "id": "speed_lane-53-2710",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 2710,
+        "time_seconds": 54.2,
+        "track_id": 53,
+        "class_name": "scooter",
+        "box": [
+          880,
+          765,
+          1279,
+          1078
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-54-2735",
+        "module": "speed_lane",
+        "label": "Speed measured",
+        "frame": 2735,
+        "time_seconds": 54.7,
+        "track_id": 54,
+        "class_name": "car",
+        "box": [
+          1464,
+          627,
+          1804,
+          909
+        ],
+        "details": {
+          "speed_kmh": 45.0,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.64
+        }
+      },
+      {
+        "id": "speed_lane-62-2909",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 2909,
+        "time_seconds": 58.18,
+        "track_id": 62,
+        "class_name": "car",
+        "box": [
+          709,
+          264,
+          877,
+          410
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-57-2916",
+        "module": "speed_lane",
+        "label": "Overspeed violation",
+        "frame": 2916,
+        "time_seconds": 58.32,
+        "track_id": 57,
+        "class_name": "car",
+        "box": [
+          767,
+          633,
+          1097,
+          912
+        ],
+        "details": {
+          "speed_kmh": 53.333,
+          "speed_limit_kmh": 50.0,
+          "meters_between_lines": 8.0,
+          "delta_seconds": 0.54
+        }
+      },
+      {
+        "id": "speed_lane-57-2941",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 2941,
+        "time_seconds": 58.82,
+        "track_id": 57,
+        "class_name": "car",
+        "box": [
+          829,
+          773,
+          1198,
+          1080
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      },
+      {
+        "id": "speed_lane-64-2959",
+        "module": "speed_lane",
+        "label": "Lane violation",
+        "frame": 2959,
+        "time_seconds": 59.18,
+        "track_id": 64,
+        "class_name": "car",
+        "box": [
+          661,
+          265,
+          815,
+          372
+        ],
+        "details": {
+          "assigned_lane": "Lane 1",
+          "current_lane": null,
+          "outside_frames": 8
+        }
+      }
+    ],
+    "video_url": "/api/jobs/f3805c8ff1d0426fb4b1f6025ce983f1/video"
+  }
+}

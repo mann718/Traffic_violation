@@ -1,0 +1,18 @@
+{
+  "id": "2cd5a43d4aa54954982563bc6844f576",
+  "module": "helmet",
+  "video_id": "helmet__helmet_2.mp4",
+  "video_name": "helmet_2.mp4",
+  "status": "failed",
+  "progress": {
+    "processed_frames": 0,
+    "total_frames": 500,
+    "percent": 0.0,
+    "violations_count": 0
+  },
+  "created_at": "2026-04-30T17:34:53.899411+00:00",
+  "started_at": "2026-04-30T17:34:53.901344+00:00",
+  "finished_at": "2026-04-30T17:34:53.940332+00:00",
+  "error": "PytorchStreamReader failed reading zip archive: failed finding central directory",
+  "result": null
+}

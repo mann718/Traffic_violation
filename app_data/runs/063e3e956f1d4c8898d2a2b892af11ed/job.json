@@ -1,0 +1,50 @@
+{
+  "id": "063e3e956f1d4c8898d2a2b892af11ed",
+  "module": "red_light",
+  "video_id": "sample__dabecf48_sample_2.mp4",
+  "video_name": "dabecf48_sample_2.mp4",
+  "status": "succeeded",
+  "progress": {
+    "processed_frames": 151,
+    "total_frames": 1920,
+    "percent": 100.0,
+    "violations_count": 0
+  },
+  "created_at": "2026-04-30T17:33:59.500846+00:00",
+  "started_at": "2026-04-30T17:33:59.501849+00:00",
+  "finished_at": "2026-04-30T17:34:12.314011+00:00",
+  "error": null,
+  "result": {
+    "module": "red_light",
+    "total_violations": 0,
+    "processed_frames": 151,
+    "total_frames": 1920,
+    "fps": 29.97002997002997,
+    "width": 1920,
+    "height": 1080,
+    "elapsed_seconds": 12.550588369369507,
+    "config": {
+      "line": [
+        23,
+        879,
+        1906,
+        843
+      ],
+      "rois": [
+        [
+          261,
+          426,
+          302,
+          500
+        ]
+      ]
+    },
+    "options": {
+      "conf": 0.35,
+      "iou": 0.45,
+      "traffic_light_refresh": 5
+    },
+    "violations": [],
+    "video_url": "/api/jobs/063e3e956f1d4c8898d2a2b892af11ed/video"
+  }
+}
