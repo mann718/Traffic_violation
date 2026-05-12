@@ -5,7 +5,7 @@ services:
     plan: free
     rootDir: .
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn backend.app:app --host 0.0.0.0 --port $PORT
+    startCommand: python -m uvicorn backend.app:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /api/health
     envVars:
       - key: PYTHON_VERSION
@@ -13,8 +13,9 @@ services:
       - key: CORS_ALLOW_ORIGINS
         sync: false
 
-  - type: static
+  - type: web
     name: traffic-surveillance-ui
+    runtime: static
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
