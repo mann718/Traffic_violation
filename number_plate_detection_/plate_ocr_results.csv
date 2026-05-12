@@ -1,0 +1,10 @@
+image,easyocr,tesseract,best,confidence,format,state,n_letters,n_digits
+Cars0,KLG1CA2555,PYKLG10A2555,KLG1CA2555,0.679,Generic Alphanumeric,Kerala,5,5
+Cars1,PGEMN112,PGMN112,PGEMN112,0.558,Generic Alphanumeric,Unknown / Foreign,5,3
+Cars10,37 CS TN 2765,,37 CS TN 2765,0.826,Generic Alphanumeric,Unknown / Foreign,4,6
+Cars100,,,,0.0,N/A,N/A,0,0
+Cars101,HR 26 BC 5514,HR2GBC55H4,HR 26 BC 5514,0.877,Indian Standard (e.g. GJ01AB1234),Haryana,4,6
+Cars102,6861136,6861136,6861136,0.715,Generic Alphanumeric,Unknown / Foreign,0,7
+Cars103,,,,0.0,N/A,N/A,0,0
+Cars103,,,,0.0,N/A,N/A,0,0
+Cars104,MGOLXB,,MGOLXB,0.602,Generic Alphanumeric,Unknown / Foreign,6,0
