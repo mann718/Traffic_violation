@@ -35,14 +35,14 @@ env/
 *.swo
 
 # Large model files
-*.pt
-*.pth
+
+
 *.weights
 *.h5
 *.pb
 
 # Video and media files
-*.mp4
+
 *.avi
 *.mov
 *.mkv
@@ -54,12 +54,7 @@ frontend/dist/
 frontend/build/
 
 # App data
-app_data/
-inputs/
-inputs_helmet/
-outputs/
-runs/
-runs_detect/
+
 
 # OS
 .DS_Store
